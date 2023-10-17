@@ -24,7 +24,7 @@ function App() {
       <header class="page-header fixed top-0 left-0 right-0">
          <My_Navbar />
         </header>    
-      <div class="page-main "> 
+      <div class="page-main"> 
         <div class="c"><First_Page /></div>
         <div className="c"><Feature /></div>
         <div class="c"><Second_Page /></div>
