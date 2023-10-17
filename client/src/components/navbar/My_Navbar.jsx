@@ -1,7 +1,7 @@
 import React from 'react'
 import './my_navbar.css'
 import '../../../dist/output.css'
-import '../About/About.jsx'
+import '../News/News.jsx'
 
 
 function My_Navbar() {
@@ -14,15 +14,15 @@ function My_Navbar() {
         <nav class="">
           <ul class="flex items-stretch nav-style ">
             <li><a href="/">HOME</a></li>
-            <li><a href="About">ABOUT</a></li>
+            <li><a href="News">News</a></li>
             <li><a href="">SHOP</a></li>
             <li><a href="">BLOG</a></li>
-            <li><a href="">CONTACT US</a></li>
+            <li><a href="Contact">CONTACT US</a></li>
           </ul>
         </nav>
 
         <ul class="nav-style">
-          <li><a href="">LOGIN</a></li>
+          <li><a href="Login">LOGIN</a></li>
         </ul>
     </div>
   </>

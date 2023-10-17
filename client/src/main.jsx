@@ -2,7 +2,10 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import About from './components/About/About.jsx'
+import News from './components/News/News.jsx'
+import Login from './components/Login/Login.jsx'
+import Register from './components/Register/Register.jsx'
+import Contact_us from './components/contact_us/contact_us.jsx'
 
 import { createRoot } from "react-dom/client";
 import {
@@ -18,8 +21,20 @@ const router = createBrowserRouter([
     element: <App />
   },
   {
-    path:"About",
-    element: <About />
+    path:"News",
+    element: <News />
+  },
+  {
+    path:"Login",
+    element: <Login />
+  },
+  {
+    path:"Register",
+    element: <Register />
+  },
+  {
+    path:"Contact",
+    element: <Contact_us />
   },
 ])
 
